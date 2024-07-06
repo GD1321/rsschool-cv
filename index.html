@@ -39,16 +39,17 @@
 
             <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
-                    <p>Hi! I've been looking for interesting opportunities for years and I hope I finally found it in Frontend. I'm a Technical support manager in a start-up company and I want to change my life with new career as a Junior Frontend Developer!</p>
+                    <p>Hi! I've been looking for interesting opportunities for years and I hope I finally found it in Frontend.</p>
+                    <p>I'm a Technical support manager in a start-up company and I want to change my life with a new career as a Junior Frontend Developer.</p>
             </section>
 
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
                     <ul class="contacts-list">
-                        <li class="tel-link">Phone: <a href="tel:+79999990000">+7 999 999 00 00</a></li>
-                        <li class="email-link">E-mail: <a href="mailto:gd@gmail.com">gd@gmail.com</a></li>
+                        <li class="contact-link">Phone: <a href="tel:+79999990000">+7 999 999 00 00</a></li>
+                        <li class="contact-link">E-mail: <a href="mailto:gd@gmail.com">gd@gmail.com</a></li>
                         <li>Discord: GD1321</li>
-                        <li class="github-link">Github: <a href="https://github.com/GD1321">GD1321</a></li>
+                        <li class="contact-link">Github: <a href="https://github.com/GD1321">GD1321</a></li>
                     </ul>
             </section>
 
@@ -59,7 +60,7 @@
 
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
-                    <ul>
+                    <ul class="courses-list"></ul>
                         <li>Code Basics HTML</li>
                         <li>Code Basics CSS</li>
                         <li>Hexlet JS Basics</li>
@@ -79,38 +80,28 @@
 
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-                <code>function bmi(weight, height) {
-      <br>
-      <br>
+                <pre class="my-code">
+    function bmi(weight, height) {
+
       var bmi = (weight / (height**2))
-      <br>
-      <br>
-        if (bmi <= 18.5) {
-        <br>
+      
+      if (bmi <= 18.5) {
         return "Underweight"
-        <br> 
-      }
-      <br>
-      <br>
+        }
+
       else if (bmi <= 25.0) {
-        <br>
         return "Normal"
-        <br>
-      }
-      <br>
-      <br>
+        }
+
       else if (bmi <= 30.0) {
-        <br>
-      return "Overweight"
-      }
-      <br>
-      <br>
+        return "Overweight"
+        }
+
       else if (bmi > 30) {
-        <br>
-       return "Obese" }
-      <br>
+        return "Obese" 
+        }
     }
-    </code>
+    </pre>
     </section>
 
             <section class="section" id="projects">
@@ -132,9 +123,9 @@
     <footer>
         <div class="footer-container">
             <div class="footer-year">2024</div>
-            <a href="https://github.com/GD1321" target="_blank" class="footer-git-link" >Gulsina Dzh</a></li>
+            <a href="https://github.com/GD1321" target="_blank" class="footer-git-link" >Gulsina Dzh</a>
             <a href="https://rs.school/courses/javascript-preschool-ru" class="rs-link" target="_blank">
-                <img src="assets/svg/rsschool-logo.svg" alt="rsschool-logo" width="100" height="70"/> 
+                <img class="rsschool-logo"src="assets/svg/rsschool-logo.svg" alt="rs-school-logo" width="100" height="70"/> 
             </a>
         </div>
     </footer>
@@ -142,5 +133,3 @@
 </body>
 
 </html>
-
-<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
