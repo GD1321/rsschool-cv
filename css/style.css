@@ -13,6 +13,7 @@ html {
 
 .nav-list {
   display: flex;
+  flex-wrap: wrap;
   background-color: black;
   align-items: center;
   justify-content: space-around;
@@ -41,19 +42,22 @@ html {
 
 .my-profile {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   border-bottom: 2px solid pink;
+  margin-bottom: 20px;
 }
 
 .myphoto {
   object-fit: cover;
-  height: 15%;
-  width: 15%;
+  height: 17%;
+  width: 17%;
   margin-bottom: 5px;
   border: 1px solid;
   border-color: pink;
   border-radius: 50%; 
+  margin-bottom: 20px;
 }
 
 @keyframes color-change {
@@ -72,12 +76,11 @@ html {
 
 .myname {
   animation: color-change 3s infinite;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .main-container {
   max-width: 1440px;
-  margin: 0 auto;
   min-height: 50px;
   display: flex;
   flex-grow: 1;
@@ -107,6 +110,32 @@ html {
   }
 }
 
+.contact-link a {
+  color: rgb(242, 156, 170);
+  text-decoration: none;
+}
+
+.project-link a {
+  color: rgb(242, 156, 170);
+  text-decoration: none;
+}
+
+.contact-link a:hover {
+  color: rgb(104, 187, 115);
+}
+
+.project-link a:hover {
+  color: rgb(104, 187, 115);
+}
+
+.my-code {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 13px; 
+}
+
 .footer-container {
   background-color: black;
   color: white;
@@ -124,6 +153,11 @@ html {
   color: white;
   text-decoration: none;
   transition: color 0.2s;
+}
+
+.rsschool-logo {
+  margin-top: 15px;
+  height: 45%;
 }
 
 .footer-container a:hover {
