@@ -6,23 +6,30 @@ html {
 
 * {
   box-sizing: border-box;
-  list-style: none;
+
   margin: 0;
   padding: 0;
+  
+  list-style: none;
 }
 
 .nav-list {
   display: flex;
   flex-wrap: wrap;
-  background-color: black;
+  
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
+
   font-size: 20px;
-  color: white;
   font-weight: 400;
-  line-height: 3;
+  color: white;
+
   list-style: none;
+
+  background-color: black;
+
+  line-height: 3;
 }
 
 .nav-link {
@@ -32,7 +39,9 @@ html {
 
 .nav-item a {
   color: white;
+  
   text-decoration: none;
+
   transition: color 0.2s;
 }
 
@@ -50,14 +59,15 @@ html {
 }
 
 .myphoto {
-  object-fit: cover;
   height: 17%;
   width: 17%;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+
+  object-fit: cover;
+
   border: 1px solid;
   border-color: pink;
   border-radius: 50%; 
-  margin-bottom: 20px;
 }
 
 @keyframes color-change {
@@ -75,33 +85,38 @@ html {
 }
 
 .myname {
-  animation: color-change 3s infinite;
   font-size: 50px;
+
+  animation: color-change 3s infinite;
 }
 
 .main-container {
-  max-width: 1440px;
-  min-height: 50px;
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
   align-items: center;
   text-align: center;
+  
+  display: flex;
+  flex-grow: 1;
   flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1440px;
+  min-height: 50px;  
   padding: 20px;
   padding-right: 20px;
 }
 
 .section {
-  list-style: none;
   width: 50%;
-  font-size: 20px;
   padding-bottom: 30px;
+
+  font-size: 20px;
+
+  list-style: none;
 }
 
 .section-title {
-  text-decoration: underline black;
   padding-bottom: 10px;
+
+  text-decoration: underline black;
 }
 
 @media (max-width: 768px) {
@@ -112,11 +127,13 @@ html {
 
 .contact-link a {
   color: rgb(242, 156, 170);
+
   text-decoration: none;
 }
 
 .project-link a {
   color: rgb(242, 156, 170);
+
   text-decoration: none;
 }
 
@@ -130,34 +147,41 @@ html {
 
 .my-code {
   text-align: left;
-  display: flex;
   align-items: center;
+
+  display: flex;
   justify-content: space-around;
+
   font-size: 13px; 
 }
 
 .footer-container {
-  background-color: black;
-  color: white;
-  display: flex;
   align-items: center;
-  justify-content: space-around;
+  
+  display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  margin-top: auto;
+  
   font-size: 20px;
   font-weight: 400;
   line-height: 3;
-  margin-top: auto;
+  color: white;
+
+  background-color: black;
 }
 
 .footer-container a {
   color: white;
+
   text-decoration: none;
+
   transition: color 0.2s;
 }
 
 .rsschool-logo {
-  margin-top: 15px;
   height: 45%;
+  margin-top: 15px;
 }
 
 .footer-container a:hover {
